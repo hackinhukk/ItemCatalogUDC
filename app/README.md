@@ -27,11 +27,7 @@ You will also need to make sure you are running these setup commands and the pyt
 
 ### Installing
 
-You should first navigate to the catalog directory.  You can do this by entering the fullstack-nanodegree-vm directory you downloaded, by typing in  
-```
-cd fullstack-nanodegree-vm
-```
-and pressing enter.  Then you should navigate to the catalog directory by typing in
+You should first navigate to the catalog directory you downloaded by typing in
 ```
 cd catalog
 ```
@@ -62,7 +58,7 @@ cd /vagrant
 
 and enter.  Then type
 ```
-cd catalog
+cd app
 ```
 
 
