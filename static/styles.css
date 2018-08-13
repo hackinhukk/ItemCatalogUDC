@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  font-family: "courier new";
+/*  border: 1px solid red; */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #D3E3FC;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: 1vw;
+  text-overflow: ellipsis;
+}
+/* Beginning of Header CSS */
+header {
+  display: flex;
+  max-height: 10vh;
+  min-height: 10vh;
+  min-width: 100vw;
+  max-width: 100vw;
+  margin: 0;
+  background-color: #77A6F7;
+
+}
+
+  .left-side-header {
+    margin-left: 10vw;
+    font-size: 7vw;
+    min-width: 10vw;
+  }
+
+    .left-side-label {
+      color: #FFF;
+      font-size: 4vw;
+    }
+
+  .right-side-header {
+    margin-left: auto;
+    margin-right: 10vw;
+    font-size: 5vw;
+  }
+
+    .right-side-button {
+      max-height: 10vh;
+      min-height: 9vh;
+      min-width: 9vw;
+      max-width: 10vw;
+    }
+
+/* Beginning of Main CSS */
+
+main {
+  display: flex;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vh;
+  background-color: #FFF;
+/*  border: 1px solid red; */
+  min-height: 80vh;
+  max-height: 80vh;
+  min-width: 80vw;
+  max-width: 80vw;
+  white-space: nowrap;
+
+}
+/* Ending of Main CSS */
+
+/* Beginning of mainCatalogMenu and publicMainCatalogMenu */
+  .category-list {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    min-width: 20vw;
+  }
+    .category-list-header {
+      font-size: 3vw;
+      font-weight: bold;
+      color: darkblue;
+    }
+    .category-name {
+      font-size: 3vw;
+      color: #00887A;
+    }
+
+  .latest-item-list {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    min-width: 40vw;
+    font-weight: bold;
+  }
+
+    .add-category-button {
+      color: #00887A;
+    }
+
+    .latest-item-info {
+      display: flex;
+      text-align: center;
+      flex-direction: row;
+      min-height: 3vh;
+      max-height: 6vh;
+      font-size: 2.15vw;
+      color: #77A6F7;
+    }
+
+    .latest-item-list-header {
+      font-size: 4vw;
+      font-weight: bold;
+      color: darkblue;
+    }
+
+    .latest-item-name {
+      color: #00887A;
+    }
+/* Ending of mainCatalogMenu and publicMainCatalogMenu CSS */
+
+/* Beginning of showCategory and publicShowCategory CSS */
+
+  .category-item-list{
+    margin-top: 1vh;
+    font-size: 3vw;
+  }
+
+  .category-and-items-header {
+    font-size: 3vw;
+    font-weight: bold;
+    color: darkblue;
+  }
+
+    .item-names {
+      /* 2.5 just to be safe for any 50 character names */
+      font-size: 2.5vw;
+      color: #00887A;
+    }
+
+    .add-item-link {
+      color: #77A6F7;
+    }
+/* End of showCategory and publicShowCategory CSS */
+
+/* Beginning of showItemDescription and publicShowItemDescription CSS */
+    .item-name {
+      color: darkblue;
+      font-size: 6vw;
+    }
+
+    .item-description {
+      color: #00887A;
+      font-size: 3.00vw;
+      white-space: normal;
+    }
+
+
+    .item-link {
+      color: red;
+      font-size: 3vw;
+    }
+ /* Ending of showItemDescription and publicShowItemDescription CSS */
+
+ /* Beginning of newCategoryItem and editCategoryItem CSS */
+
+ .alter-category-header {
+   font-size: 4vw;
+ }
+ .alter-category-item-container {
+   display: flex;
+   flex-direction: column;
+ }
+.alter-category-item-full-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ending of newCategoryItem and editCategoryItem CSS */
+
+/* Beginning of deleteCategoryItem CSS */
+
+.delete-category-item-container {
+  font-size: 2vw;
+}
+
+/* Ending of delete Categoryitem CSS */
