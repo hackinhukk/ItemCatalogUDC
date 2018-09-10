@@ -72,7 +72,7 @@ pip install Flask-Login==0.1.3 --user
 ```
 
 
-and hitting enter after each --user.  The --user at the end is neccessary because otherwise you would use sudo, and there can be issues with using sudo and vagrant on some machines.  
+and hitting enter after each --user.  The --user at the end is necessary because otherwise you would use sudo, and there can be issues with using sudo and vagrant on some machines.  
 
 
 Therefore, I think --user is easier, but you can accomplish the same goal with sudo pip install.  Now you are ready to setup the initial database for the application.
